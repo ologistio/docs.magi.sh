@@ -1,23 +1,41 @@
-# Nextra Docs Template 
+<p align="center">
+  <a href="http://magi.sh/" target="blank"><img src="https://magi.sh/img/logo-small.svg" width="120" alt="Magi Logo" /></a>
+</p>
+<p align="center">A batteries-included, cloud-agnostic framework for infrastructure-as-code, using the tools you already love.</p>
+<p align="center">
+<!-- Put badges here. -->
+</p>
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+## Description
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+This project is built with [Nextra](https://nextra.site). The Repository contains [docs.magi.sh](https://docs.magi.sh) source code, the official documentation for Magi.
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## Installing
 
-## Quick Start
+Install project dependencies and start a local server with the following commands:
 
-Click the button to clone this repository and deploy it on Vercel:
+```bash
+pnpm i
+pnpm dev
+```
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+Navigate to [`http://localhost:3000/`](http://localhost:3000/).
 
-## Local Development
+All [pages](/pages/) are written in [MDX](https://nextjs.org/docs/pages/building-your-application/configuring/mdx) and can be augmented with [TSX](https://www.typescriptlang.org/docs/handbook/jsx.html) [components](/components/).
 
-First, run `pnpm i` to install the dependencies.
+## Build
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+Run `pnpm build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Support
+
+Magi is an MIT-licensed open source project, currently funded and maintained by [Ologist](https://ologist.io). We are exploring options for funding further development, and will update this README if anything changes. <!-- If you'd like to support the project and help it grow, please [read more here](https://opencollective.com/magi). -->
+
+## Stay in touch
+
+- Author - [Josh Finch](https://boop.network/@finch)
+- Website - [https://magi.sh](https://magi.sh/)
 
 ## License
 
-This project is licensed under the MIT License.
+Magi is [MIT licensed](LICENSE).
